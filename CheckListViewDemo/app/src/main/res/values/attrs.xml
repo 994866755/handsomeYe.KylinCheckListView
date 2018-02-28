@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 选框样式 -->
+    <declare-styleable name="KylinCheckListViewStyle">
+        <!-- checkbox的margin -->
+        <attr name="cb_margin_left" format="dimension"/>
+        <attr name="cb_margin_right" format="dimension"/>
+        <attr name="cb_margin_top" format="dimension"/>
+        <attr name="cb_margin_bottom" format="dimension"/>
+        <!-- checkbox的背景-->
+        <attr name="cb_backgroup" format="reference"/>
+        <!-- item的背景-->
+        <attr name="item_backgroup" format="reference"/>
+        <!-- item的gravity-->
+        <attr name="item_gravity" format="integer"/>
+        <!-- recyclerview的分割线-->
+        <attr name="item_decoration" format="dimension"/>
+        <!-- 展示位置-->
+        <attr name="show_location" format="integer"/>
+        <!-- 单选/多选-->
+        <attr name="show_type" format="integer"/>
+    </declare-styleable>
+
+</resources>
